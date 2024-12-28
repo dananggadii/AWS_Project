@@ -1,5 +1,7 @@
 # Create Log Group on CloudWatch
 
+### 1. Create Log Group by Console
+
 1. Search CloudWatch
 
 2. Click Log groups
