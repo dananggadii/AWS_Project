@@ -88,3 +88,34 @@ sudo apt install docker-ce
 # Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it’s running
 sudo systemctl status docker
 ```
+
+![alt text](image-22.png)
+
+## Import file
+
+```bash
+# Import file from github
+wget https://github.com/iaasacademy/aws-how-to-guide/raw/238deeefb955ddef46c673f5154754f679410d57/amazon-ecs-mini-project/ritual-roast-code.zip
+
+# Install unzip
+sudo apt install unzip
+
+# Unzip file
+unzip [file_name]
+
+# change directory
+cd [folder_name]
+```
+
+![alt text](image-23.png)
+
+# Build a docker image
+
+![alt text](image-24.png)
+
+```bash
+# Running docker build
+sudo docker build -t 905418275125.dkr.ecr.us-east-1.amazonaws.com/apps-registry .
+```
+
+![alt text](image-25.png)
